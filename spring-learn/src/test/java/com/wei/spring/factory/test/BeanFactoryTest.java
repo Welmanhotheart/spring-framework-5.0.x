@@ -11,6 +11,6 @@ public class BeanFactoryTest {
 	public void testSimpleLoad() {
 		XmlBeanFactory xmlBeanFactory = new XmlBeanFactory(new ClassPathResource("beans.xml"));
 		MytestBean myTestBean = (MytestBean) xmlBeanFactory.getBean("myTestBean");
-		System.out.println(myTestBean);
+		System.out.println(myTestBean.getTestStr());
 	}
 }
