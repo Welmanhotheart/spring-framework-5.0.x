@@ -7,6 +7,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class MytestBean {
-	private String testStr = "testStr";
+	private String testStr;
 
 }
