@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:myname="http://com.wei.customer/schema/customer"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+http://com.wei.customer/schema/customer http://com.wei.customer/schema/customer.xsd">
+
+	<myname:customer id="testBean" userName="aaa" email="bbb" ></myname:customer>
+</beans>

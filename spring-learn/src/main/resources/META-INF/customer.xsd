@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://com.wei.customer/schema/customer"
+	xmlns:tns="http://com.wei.customer/schema/customer"
+		elementFormDefault="qualified"
+>
+	<element name="customer">
+		<complexType>
+			<attribute name="id" type="string"></attribute>
+			<attribute name="userName" type="string"></attribute>
+			<attribute name="email" type="string"></attribute>
+		</complexType>
+	</element>
+
+</schema>
