@@ -128,10 +128,12 @@ public class AutowiredAnnotationBeanPostProcessorTests {
 		ResourceInjectionBean bean = (ResourceInjectionBean) bf.getBean("annotatedBean");
 		assertSame(tb, bean.getTestBean());
 		assertSame(tb, bean.getTestBean2());
+		System.out.println(bean);
 
 		bean = (ResourceInjectionBean) bf.getBean("annotatedBean");
 		assertSame(tb, bean.getTestBean());
 		assertSame(tb, bean.getTestBean2());
+		System.out.println(bean);
 	}
 
 	@Test
